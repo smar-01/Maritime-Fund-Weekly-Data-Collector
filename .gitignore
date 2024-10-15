@@ -3,6 +3,19 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore all .xlsx files
+*.xlsx
+
+# Ignore .txt files in the root directory
+/*.txt
+
+
+# Ignore all .txt files globally
+*.txt
+
+# Ignore .txt files in a specific subdirectory
+/shared-data/*.txt
+
 # C extensions
 *.so
 
